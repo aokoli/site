@@ -16,16 +16,12 @@ body
 
   text-shadow: none;
 /*z-index: 10;
-  spacing containter elements
   */
 position: fixed;
 top: 0;
-  width: 100%;
-/*
+width: 100%;
 left: 0;
 right: 0;
- */
-
 
 background-color: #fff;
 box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -53,7 +49,7 @@ transition: background 0.5s ease;
   font-weight: 700; /*Works because 700 was specifically @imported*/
   /*font-weight:bold;*/
   
-  padding: 1.5em;
+  padding: 1em;
   float:right; 
 
 }
@@ -63,7 +59,6 @@ transition: background 0.5s ease;
     background-color: #999999;
   color: white;  
   
-  box-shadow:inset 0 0 10px #000000; 
 }
 
 
@@ -80,9 +75,17 @@ transition: background 0.5s ease;
 }
 
 
+#navi .current
+{
+	    background-color: #999999;
+color: white;  
+  box-shadow:inset 0 0 10px #000000; 
+}
+
+
 .all-sections
 {
-font-size: 2rem;
+font-size: 1.5rem;
 padding: 2em 0.5em;
 width: 65%;
 margin: 5% auto;
@@ -148,6 +151,7 @@ text-align: center;
 
 }
 
+/*
 .all-sections div.box
 {
   
@@ -159,12 +163,10 @@ box-shadow: 3px 3px 3px 3px #7A7A7A;
   
 
 }
-
+*/
 
 figure {
-	
-
-	
+		
 -moz-box-shadow: 0px 0px 5px #dfdfdf;
 -o-box-shadow: 0px 0px 5px #dfdfdf;
 -webkit-box-shadow: 0px 0px 5px #dfdfdf;
@@ -182,5 +184,28 @@ margin-left: 0px;  /*To push the pic to the far left. Overrides figure element's
 
 figure img {
 	float:left;
-	
+}
+
+figure img.project-text
+{
+	padding-right: 4px;
+}
+
+
+a.button
+{
+	padding: 0.5em;
+	text-decoration:none; 
+	color: white; 
+	background-color: black;
+}
+
+
+a.button:hover
+{
+	margin: 5% auto;
+	position: relative;
+	margin:
+	color: white; 
+	background-color: #48d3ff;
 }
