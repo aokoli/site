@@ -29,7 +29,6 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 
 }
 
-
 a
 {
  -webkit-transition: background 0.5s ease;
@@ -51,7 +50,6 @@ transition: background 0.5s ease;
   
   padding: 1em;
   float:right; 
-
 }
 
 #navi a:hover
@@ -62,18 +60,12 @@ transition: background 0.5s ease;
 }
 
 
-
+/*
 #navi a:active
 {
-   /* background-color: grey;
-    opacity:0.4;
-  */
-  
   box-shadow:inset 0 0 10px #000000; 
-  
-
 }
-
+*/
 
 #navi .current
 {
@@ -146,10 +138,15 @@ text-align: center;
 
 .all-sections div.section-splitter
 {
-  
     border-bottom: 1px solid gray;
-
 }
+
+.all-sections div.project-splitter
+{
+    border-top: 1px dotted gray;
+    margin-top: 4%;
+}
+
 
 /*
 .all-sections div.box
@@ -164,6 +161,30 @@ box-shadow: 3px 3px 3px 3px #7A7A7A;
 
 }
 */
+
+.project-splitter h3
+{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.project-splitter figure
+{
+	margin: 0px;
+}
+
+.project-splitter nav
+{
+	margin-top: 2%;
+}
+
+
+hr
+{
+opacity: 0; /*Hide the divider between project sections */
+}
+
+
 
 figure {
 		
@@ -182,30 +203,21 @@ margin-left: 0px;  /*To push the pic to the far left. Overrides figure element's
 
 }
 
-figure img {
-	float:left;
-}
+figure img { float:left; }
 
-figure img.project-text
-{
-	padding-right: 4px;
-}
-
+figure img.right-pad { padding-right: 2%; /* Pushes text a bit away from picture*/ }
 
 a.button
 {
+	/*font-weight: 700;
+	font-size: 1rem;*/
+	
 	padding: 0.5em;
 	text-decoration:none; 
 	color: white; 
 	background-color: black;
+	margin-right: 2%;
 }
 
 
-a.button:hover
-{
-	margin: 5% auto;
-	position: relative;
-	margin:
-	color: white; 
-	background-color: #48d3ff;
-}
+a.button:hover { background-color: #48d3ff; }
