@@ -11,6 +11,11 @@ body
    * font-style: italic;*/
 }
 
+.center /*Temporary for site construction*/
+{
+	text-align:center;
+}
+
 .top-header
 {
   border-bottom: 1px solid gray;
