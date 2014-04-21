@@ -4,18 +4,27 @@
 
 html 
 {
-  width: 1280px;
+  
 }
 
 
 body 
 {
    font-family: 'Alegreya Sans', sans-serif;
-   text-align:justify;
-
+   text-align:center;
+   margin: 0px;
+   padding: 0px;
   /*
-   * font-style: italic;*/
+    text-align:justify;      
+   */
 }
+
+#wrapper {
+	width: 1280px;
+	margin: auto;
+	text-align: left;
+}
+
 
 .center /*Temporary for site construction*/
 {
@@ -24,24 +33,25 @@ body
 
 .top-header
 {
-  border-bottom: 1px solid gray;
 
-  text-shadow: none;
 /*
  width: 100%;
 
+position: fixed;
 
 */
+
+
 width: 1280px;
 position: fixed;
 top: 0;
-
 left: 0;
 right: 0;
-
+margin: auto;
+border-bottom: 1px solid gray;
+text-shadow: none;
 background-color: #fff;
 box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-/*  padding: .2%;*/
 
 }
 
